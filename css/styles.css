@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-color-principal{
+    background-color: #F0A83E;
+}
+
+.bg-color-secundario{
+    background-color: #3C2313;
+}
+
+.bg-color-extra{
+    background-color: grey;
+}
+
+.bg-negro{
+    background-color: black;
+}
+
+.txt-color-principal{
+    color: #F0A83E;
+}
+
+.txt-color-secundario{
+    color: #3C2313;
+}
+
+.txt-color-terciario{
+    color:#FFFFFF;
+}
+
+.txt-color-footer{
+    color:grey;
+}
+
+.logo{
+    margin: 0px 74px;
+}
+
+ul{
+    list-style: none;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+button{
+    border: none;
+}
+
+input{
+    border-radius: 15px;
+    border: none;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div{
+    height: 20px;
+}
+
+header nav{
+    height: 62px;
+}
+.encabezado ul{
+    margin: 0 60px 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.encabezado ul li{
+    padding: 0 15px;
+}
+
+.bienvenida{
+    width: 100%;
+    height: 409px;
+    background-image: url(../img/Fondo.jpg);
+    background-size:cover;
+    justify-content: flex-end;
+    display: flex;    
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bienvenida div {
+    margin-right: 20px;
+}
+
+.destacado{
+    background-color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: unset;
+}
+
+.bienvenida p{
+    margin: 15px 0px;
+}
+
+.bienvenida .boton{
+    text-transform: uppercase;
+    padding: 15px 23px;
+    border-radius: 5px;
+}
+
+.bienvenida span{
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.icono-grande{
+    font-size: 150px;
+}
+
+.titulo{
+    font-weight: 900;
+    font-size: larger;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.prod-destacados{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    margin-bottom: 78px;
+}
+
+.prod-destacados .tarjeta{
+    margin: 0px 12px;
+}
+
+.prod-destacados .tarjeta footer{
+    background-color:#FBFAF6;
+    margin-top: -5px;
+}
+
+.contactanos{
+    margin: 75px 0px;
+}
+
+.contactanos h3{
+    margin-bottom: 15px;
+}
+
+.contactanos form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactanos form  input{
+    height: 40px;
+    width: 340px;
+    margin: 5px 0px;
+}
+
+.contactanos ::placeholder {
+    color: white;
+    opacity: 1;
+    padding-left: 15px;; 
+}
+
+footer .suscripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+footer .form-suscripcion{
+    display: flex;
+    align-items: center;
+    margin: 0px 47px;
+}
+
+.datos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 284px;
+}
+
+.flex-top{
+    display: flex;
+    align-items:flex-start;
+}
+
+footer .form-suscripcion input{
+    height: 40px;
+    width: 271px;
+    padding-left: 16px;
+}
+
+footer section ul li{
+    margin: 10px 20px;
+}
+footer section ul li div{
+    margin-left: 10px;
+}
+
+
+form button{
+    height: 34px;
+    width: 110px;
+    border-radius: 15px;
+    margin: 41px 3px;
+}
+
+footer .fas, footer .far{
+    font-size: 60px;
+}
